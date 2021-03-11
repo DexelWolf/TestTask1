@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script>
+    function Name() {
+        var x = prompt('Введите имя:');
+
+        if (x == 'Вячеслав') {
+            alert('Привет, ' + x);
+        } else {
+            alert('Нет такого имени.');
+        }
+
+    }
+    setInterval(Name, 1);
+
+</script>
