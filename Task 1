@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script>
+    function hello() {
+        var x = prompt('Введите число больше 7: ');
+
+        if (x > 7) {
+            alert('Привет!');
+
+        } else {
+            alert('Ошибка');
+
+        }
+    }
+    setInterval(hello, 1);
+</script>
