@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script>
+
+    function findNumb(arr, number) {
+        var multiples = [];
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] % number === 0) {
+                multiples.push(arr[i]);
+            }
+        }
+
+        return multiples;
+    }
+
+    alert(findNumb([11, 22, 33, 44, 55, 66, 77, 88, 99, 111], 3));
+
+
+</script>
